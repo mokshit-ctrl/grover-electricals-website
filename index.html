@@ -1,0 +1,51 @@
+import React from 'react';
+import './PremiumLandingPage.css';
+
+const PremiumLandingPage = () => {
+    return (
+        <div className='premium-landing-page'>
+            <header className='header'>
+                <h1>Welcome to Grover Electric</h1>
+                <nav className='navigation'>
+                    <ul>
+                        <li><a href='#features'>Features</a></li>
+                        <li><a href='#about'>About Us</a></li>
+                        <li><a href='#contact'>Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section className='hero'>
+                <h2>Experience the Future of Electric Solutions</h2>
+                <button className='cta-button'>Get Started</button>
+            </section>
+            <section id='features' className='features'>
+                <h2>Our Features</h2>
+                <div className='feature-list'>
+                    <div className='feature-item'>
+                        <h3>3D Animations</h3>
+                        <p>Explore our products through stunning 3D models and animations.</p>
+                    </div>
+                    <div className='feature-item'>
+                        <h3>Smooth Navigation</h3>
+                        <p>Effortlessly navigate through our website with an enhanced user interface.</p>
+                    </div>
+                    <div className='feature-item'>
+                        <h3>High-End Design</h3>
+                        <p>Enjoy a premium design crafted with attention to detail.</p>
+                    </div>
+                </div>
+            </section>
+            <section id='about' className='about'>
+                <h2>About Us</h2>
+                <p>Grover Electric is committed to transforming the electric solutions industry with innovative technology and top-notch services.</p>
+            </section>
+            <footer className='footer'>
+                <h2>Contact Us</h2>
+                <p>Email: contact@grov_electric.com</p>
+                <p>Phone: +1 (800) 555-0199</p>
+            </footer>
+        </div>
+    );
+};
+
+export default PremiumLandingPage;
